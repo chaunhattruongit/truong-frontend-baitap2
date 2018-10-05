@@ -1,0 +1,62 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home
+		.container
+			.row
+				.col-md-3
+					figure
+						img.logo(src="https://lh3.googleusercontent.com/-VJeC7yJYwJ0/TYFxgif_4UI/AAAAAAAAE8s/tSC-gaOACyk/s1600/Air+Asia+new+b.png", alt="")
+				.col-md-9.logo-decs
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, obcaecati!
+			.row
+				.col.abc
+					.menu
+						ul
+							li
+								a(href="#") HOME
+							li
+								a(href="#") ABOUT
+							li
+								a(href="#") SERVICES
+							li
+								a(href="#") CONTACT US
+			.row
+				.col-md-4.abc
+					figure
+						img.img-fluid(src="https://images.kienthuc.net.vn/uploaded/thutt/2014_12_31/may-bay-air-asia-khong-no-tung-tren-khong-hinh-anh-1_lmte.jpg", alt="")
+				.col-md-8
+					.about
+						h2 About 
+						p At AirAsia, we see ourselves as not so much an airline operator but more of a people company that happens to be in the airline business. Understanding people enables us to realize the true needs of discerning travellers and provide paramount services and products to deliver utmost satisfaction to our guests, each and every one with unique requisites and expectations.
+			.row
+				.col-md-3.menudoc
+					.menu-doc
+						ul
+							li
+								a(href="#") About Us
+							li
+								a(href="#") How We Work
+							li
+								a(href="#") Testimonials
+							li
+								a(href="#") Contact Support
+				.col-md-9.bg-context
+					h2 How We Work
+					dl
+						dt How we ensure safety in our operations and in everything we do
+							dd We write clear and comprehensive safety policies and procedures, and we adhere to them strictly. We continually look for opportunities to improve, keep a lookout for possible safety failings and violations, and report all such instances through the established channels. We will not do anything that will compromise safety in AirAsia.
+						dt How we use AirAsia’s assets, properties, time, information and other resources
+							dd We make proper and efficient use of these by following procedures and guidelines to prevent wastage, loss, and theft, unsafe or unauthorised use. We won’t create unnecessary added costs and disruptions to AirAsia’s business or cause any obstructions or interference to our actual or potential ability to do business.
+						dt  How we exercise expertise and authority
+							dd We have policies and rules on who can make what decisions. We may only represent AirAsia to other parties if we have the authority to do so – and when we do, we keep within that authority at all times.
+						dt How we relate with guests, suppliers, competitors and public authorities
+							dd We treat our guests with respect and understanding, and protect their personal information unless they agree for their personal information to be shared. We treat suppliers impartially and justly. Selection of suppliers must follow established guidelines and rules.
+						dt How we compete
+							dd We compete based on superior value propositions – by offering products and services at great prices and quality, and through superior execution of our business models and strategies. We treat our competitors honestly and professionally. We compete fairly and openly at all levels, and we compete hard! 
+
